@@ -24,11 +24,11 @@ A responsive weather dashboard that allows users to search for current and forec
 
 ## Demo
 
-![Weather Dashboard Screenshot](./client/public/vite.svg)  
-<!-- Replace the above with a screenshot of your app, e.g. /assets/screenshot.png -->
+![Weather Dashboard Screenshot](https://res.cloudinary.com/dswrez3vz/image/upload/v1747648963/screenshot_svhmtg.jpg)  
 
-**Live Site:** [https://your-deployment-link.com](https://your-deployment-link.com)  
-<!-- Replace with your actual deployed site link -->
+
+**Live Site:** [https://your-deployment-link.com](https://four-day-forecast.onrender.com/)  
+
 
 ---
 
@@ -49,36 +49,37 @@ A responsive weather dashboard that allows users to search for current and forec
    git clone https://github.com/your-username/weather-dashboard.git
    cd weather-dashboard
 
- 2. Install dependencies:
+2. **Install dependencies:**
 
 npm run install
 
- 3. Set up environment variables:
+3. **Set up environment variables:**
   Create a .env file in the server/ directory with your OpenWeatherMap API key:
 
 weathermapAPI_KEY=your_open_api_key
 API_BASE_URL=https://api.openweathermap.org
 PORT=3001
 
- 4. Run the app in development
+4. **Run the app in development**
 
-if you want to use npm run start:dev install concurrently
-npm install concurrently --save-dev
+npm install concurrently 
 
 npm run start:dev
 
- 5. Build for production:
+5. **Build for production:**
 
 npm run build
 npm start
 
-Usage
+## Usage
+
 Enter a city name in the search bar and hit "Search".
 View the current weather and 5-day forecast.
 Click on a city in the search history to view its weather again.
 Remove cities from your search history using the delete button.
 
-Technologies Used
+## Technologies Used
+
 TypeScript
 Node.js
 Express
@@ -87,7 +88,8 @@ Day.js
 OpenWeatherMap API
 UUID
 
-API Reference
+## API Reference
+
 POST /api/weather/
 Request body: { "cityName": "City" }
 Returns: Weather data for the city.
@@ -98,8 +100,10 @@ Returns: Array of previously searched cities.
 DELETE /api/weather/history/:id
 Removes a city from search history.
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-License
+## License
+
 This project is licensed under the MIT License.
