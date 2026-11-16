@@ -1,8 +1,13 @@
 # Weather Dashboard 🌦️
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+**Status: Coursework / learning project.**
+
+A TypeScript coursework weather dashboard using Express, Vite, and the OpenWeather API.
+
+Preserved as a learning reference; production deployment and current compatibility have not been verified.
+
+
 [![Node.js](https://img.shields.io/badge/node-%3E=18.0.0-green.svg)](https://nodejs.org/)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![Vite](https://img.shields.io/badge/vite-%5E5.2.0-blueviolet.svg)](https://vitejs.dev/)
 
 A responsive weather dashboard that allows users to search for current and forecasted weather conditions for cities worldwide. The app saves your search history and provides a seamless user experience.
@@ -106,4 +111,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-This project is licensed under the MIT License.
+No project license file is currently provided. Preserve any upstream notices.
