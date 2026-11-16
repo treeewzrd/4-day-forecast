@@ -6,6 +6,18 @@ Coursework weather dashboard for searching cities, viewing forecast data, and ke
 
 **Built with:** TypeScript, Vite, Express, OpenWeather, Day.js.
 
+## What I built
+
+- Built a city-search dashboard and weather display.
+- Implemented geocoding and forecast requests through a backend service.
+- Added saved city history with file persistence and deletion.
+
+## Explore the source
+
+- [client/src/main.ts](client/src/main.ts) — Dashboard interaction.
+- [server/src/service/weatherService.ts](server/src/service/weatherService.ts) — OpenWeather requests and forecast parsing.
+- [server/src/service/historyService.ts](server/src/service/historyService.ts) — History persistence.
+
 ## Run locally
 
 Requires Node.js/npm and an OpenWeather API key. From the repository root:
