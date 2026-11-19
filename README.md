@@ -1,6 +1,8 @@
 # Weather Dashboard
 
-![Status](https://img.shields.io/badge/status-coursework-blue)
+**Coursework for school**
+
+![Coursework](https://img.shields.io/badge/Coursework-blue)
 
 Coursework weather dashboard for searching cities, viewing forecast data, and keeping search history.
 
